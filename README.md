@@ -278,7 +278,7 @@ func insert() {
     
 ```
 
-> SQLite written in ANSI-C with C style and you do not prefer
+> SQLite written in ANSI-C with C style and you may not prefer
 
 ## Benchmark
 
