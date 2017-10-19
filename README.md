@@ -30,9 +30,9 @@ Realm launched in July 2014 – Since then also released Realm Java, Realm JavaS
 
 ## What is Realm
 
-Realm is not an ORM, and is not built on top of SQLite. Instead we’ve built a full database for mobile app developers
+> Realm is not an ORM, and is not built on top of SQLite.
 
-Realm is the first database built from the ground-up to run directly inside phones, tablets and wearables, and the fruit of several years of labor since we came out of YCombinator. Realm uses very little resources, is incredibly easy to use, and lets you interact with your data faster than any current alternative.
+> Realm is the first database built from the ground-up to run directly inside phones, tablets and wearables, and the fruit of several years of labor since we came out of YCombinator. Realm uses very little resources, is incredibly easy to use, and lets you interact with your data faster than any current alternative.
 
 ```swift
 // Using Realm in Swift
@@ -284,15 +284,9 @@ func insert() {
 
 ### iOS
 
-* Counts
-
 ![](https://images.contentful.com/3c9g5h7ou6jg/6PQMUM8p20agQQY6sUo2W0/03beef834bebb49b0747a64b321c0d1e/benchmarks.002b.png)
 
-* Queries
-
 ![](https://images.contentful.com/3c9g5h7ou6jg/1stWlBzjbCGouKq8mwqOKy/06f1ebda2e7e171e16b846c832ba44aa/benchmarks.003b.png)
-
-* Inserts
 
 ![](https://images.contentful.com/3c9g5h7ou6jg/6kiTSC5Wj6cu28kOWGsa6E/967d8dafe753c1753552ea17210dc2e9/benchmarks.001b.png)
 
@@ -300,15 +294,10 @@ func insert() {
 
 ### Android
 
-* Counts
-
 ![](https://images.contentful.com/3c9g5h7ou6jg/66WeyNzBDiAe8sIAO4C2YY/2f3ae71dda19a6ae585ac341a3959805/benchmarks-android.002.png)
-
-* Queries
 
 ![](https://images.contentful.com/3c9g5h7ou6jg/2PiuZpUccgIauOmKwCikyO/45b58133ec9552c8d06abb8f7eef7c63/benchmarks-android.003.png)
 
-* Inserts
 ![](https://images.contentful.com/3c9g5h7ou6jg/48I7dCZ63eSKWOIyi0wGu6/ae000b1628a8811246ab7e170adcea82/benchmarks-android.001.png)
 
 >Tests run on an Galaxy S3, using the latest available version of each library as of Sept 28, 2014.
@@ -317,33 +306,21 @@ UPDATE 11/06/2015: we have significantly updated Realm and the way we do benchma
 
 ### Xamarin
 
-* Counts
-
 ![](https://images.contentful.com/3c9g5h7ou6jg/2QN86s8K4ogiCkooIIwMoq/9b16f68052c7a3db135bc6a0b9d7da93/xamarin-benchmarks-002.png)
 
-* Queries
-
 ![](https://images.contentful.com/3c9g5h7ou6jg/7rU2d0Jw1qAKMsGcq26m4S/29517ef0914ddc34dfee03fba6671df8/xamarin-benchmarks-003.png)
-
-* Inserts
 
 ![](https://images.contentful.com/3c9g5h7ou6jg/6nXf41Wq0Eo6uaCoWiMMwm/2d035d545debd11a8ef54fa53f9509d2/xamarin-benchmarks-001.png)
 
 ### React Native
 
-* Counts
-
 ![](https://images.contentful.com/3c9g5h7ou6jg/6zltiFnHi06EwAc4WyewYI/4f09aa7b64262ead612119164fb9ccbe/react-native-benchmark-002.png)
 
 ![](https://images.contentful.com/3c9g5h7ou6jg/25nEt9TYqc0oAAeYE0qUa/a2e167e41a6467e330958f1e02e13d7c/react-native-benchmark-005.png)
 
-* Queries
-
 ![](https://images.contentful.com/3c9g5h7ou6jg/5fBPqUePoAsA2emeeOmmYe/0c0873575872d62e0cad257b74ecc28a/react-native-benchmark-003.png)
 
 ![](https://images.contentful.com/3c9g5h7ou6jg/6rPuRQxqDeSKyY20EMQWgW/3cdb9212383db13434742dbf742342f5/react-native-benchmark-006.png)
-
-* Inserts
 
 ![](https://images.contentful.com/3c9g5h7ou6jg/6HYptDR6RqC8MEckUS8m2E/8b5daea31a839eb9265182273f31a519/react-native-benchmark-001.png)
 
