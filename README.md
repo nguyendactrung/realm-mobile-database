@@ -351,10 +351,6 @@ Because Realm aims to strike a balance between flexibility and performance, In o
   * Threads (similar to iOS)
   * RealmObject’s hashCode: A `RealmObject` is a live object, and it might be updated by changes from other threads. Although two Realm objects returning `true` for `RealmObject.equals` must have the same value for `RealmObject.hashCode`, the value is not stable, and should neither be used as a key in `HashMap` nor saved in a `HashSet`.
 
-## Realm Mobile Platform (In progress)
-
-The Realm Platform is a next-generation data layer for applications. Realm is reactive, concurrent, and lightweight, allowing you to work with live, native objects.
-
 ## More
 
 * <https://realm.io/docs>
