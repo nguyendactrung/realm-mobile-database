@@ -30,9 +30,11 @@ Realm launched in July 2014 – Since then also released Realm Java, Realm JavaS
 
 ## What is Realm
 
-> Realm is not an ORM, and is not built on top of SQLite
+> Realm is not an ORM, and is not built on top of SQLite. Realm has own C++ core. 
 
 > Realm is the first database built from the ground-up to run directly inside phones, tablets and wearables
+
+> Cross platform
 
 ```swift
 // Using Realm in Swift
