@@ -19,7 +19,6 @@ An introduction to Realm Mobile Database
     - [Xamarin](#xamarin)
     - [React Native](#react-native)
 - [Why not Realm](#why-not-realm)
-- [Realm Mobile Platform (In progress)](#realm-mobile-platform-in-progress)
 - [More](#more)
 
 <!-- /TOC -->
